@@ -300,7 +300,7 @@ getIssuers <- function(){
 }
 
 #==========================================================
-getBonds <- function(Issuer){
+getHistIssues <- function(Issuer){
   
   longBondURL <- paste("http://www.thaibma.or.th/issuer/regissue?abbrName=",Issuer,"&term=long", sep = "")
   shortBondURL <- paste("http://www.thaibma.or.th/issuer/regissue?abbrName=",Issuer,"&term=short", sep = "")
